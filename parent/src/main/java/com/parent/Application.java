@@ -1,6 +1,6 @@
 package com.parent;
 
-import com.logging.EnableTracing;
+import com.security.audit.EnableTracing;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -1,4 +1,4 @@
-package com.logging;
+package com.security.audit;
 
 import org.springframework.context.annotation.Import;
 
@@ -9,6 +9,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Import({TracingHandlersConfiguration.class})
+@Import(DatabaseConfiguration.class)
 public @interface EnableTracing {
 }
